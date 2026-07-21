@@ -6,7 +6,7 @@ import TopWorkers from "../components/TopWorkers";
 import Stats from "../components/Stats";
 import Footer from "../components/Footer";
 
-export default function Home() {
+export default function Landing() {
   return (
     <div className="min-h-screen bg-white">
       <Navbar />

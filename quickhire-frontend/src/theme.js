@@ -7,7 +7,7 @@ export const themeConfig = {
     colorLinkHover: "#FF7A1A",
     borderRadius: 12,
     fontFamily:
-      "'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
+      "'Montserrat', system-ui, -apple-system, sans-serif",
   },
   components: {
     Button: {

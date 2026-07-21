@@ -1,18 +1,5 @@
-import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import { BrowserRouter } from "react-router-dom";
-import { ConfigProvider } from "antd";
-import "antd/dist/reset.css";
-import App from "./App.jsx";
-import { themeConfig } from "./theme.js";
+import App from "./App";
 import "./index.css";
 
-createRoot(document.getElementById("root")).render(
-  <StrictMode>
-    <ConfigProvider theme={themeConfig}>
-      <BrowserRouter>
-        <App />
-      </BrowserRouter>
-    </ConfigProvider>
-  </StrictMode>
-);
+createRoot(document.getElementById("root")).render(<App />);
